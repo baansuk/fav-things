@@ -4,5 +4,6 @@ function addFavthings(){
     var li = document.createElement("li");
     li.setAttribute('id',favthing.value);
     li.appendChild(document.createTextNode(favthing.value));
+    li.innerHTML="blahblah"
     ul.appendChild(li);
 }
