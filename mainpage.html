@@ -34,6 +34,10 @@
     font-family:Times;
     font-size:25;
    }
+
+   .buttons{
+     width:50%;
+   }
   </style>
     
  </head>
@@ -42,12 +46,14 @@
   <div>
   <h1 style="text-align:center;">My Favorite Things</h1>
   </div>
-  <div>
+  <div class="buttons">
   <input type="button" value="Night" onclick="nightDayHandler(this);">
 
     <input type="text" id="favthing" placeholder="Write down your favorite thing" size="35">
     <button onclick="addFavthings()">Add to list</button>
+    </div>
   <ul id="favlist"></ul>
   <script src="script.js"></script>
   </div>
  </body>
+</html>
