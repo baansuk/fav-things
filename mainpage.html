@@ -3,7 +3,8 @@
  <head>
   <title>Favorite Things</title>
   <meta charset="utf-8">
-  <script>
+<!-----------------------------------Night and day mode handling code--------------------------------------------------
+<script>
    function setColor(color){
       var afriends = document.querySelectorAll('a');
       var i2 = 0;
@@ -28,9 +29,9 @@
       }
     }
    </script>
-
+--------------------------------------------------------------------------------------------------------------------->
   <style>
-   h1 {
+   .fav_title {
     font-family:Times;
     font-size:25;
    }
@@ -44,14 +45,14 @@
  <body>
 
   <div>
-  <h1 style="text-align:center;">My Favorite Things</h1>
+  <h1 class="fav_title" style="text-align:center;">My Favorite Things</h1>
   </div>
-  <div class="buttons">
+  <!---------------------------Night and day handling button which I don't use for a momment------------------------
   <input type="button" value="Night" onclick="nightDayHandler(this);">
-
-    <input type="text" id="favthing" placeholder="Write down your favorite thing" size="35">
-    <button onclick="addFavthings()">Add to list</button>
-    </div>
+ -----------------------------------------------------------------------------------------------------------------> 
+  <div>
+  <input type="text" id="favthing" placeholder="Write down your favorite thing" size="35">
+   <button onclick="addFavthings()">Add to list</button>
   <ul id="favlist"></ul>
   <script src="script.js"></script>
   </div>
