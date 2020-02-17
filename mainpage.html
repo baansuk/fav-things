@@ -45,12 +45,15 @@
     font-family:Times;
     color: DarkSlateGray;
     margin:30px;
+    line-height:100%;
    }
    .fav_hr {
     width:10%;
     border-width:1px;
    }
-   
+   .fav_input{
+    margin:30px;
+   }
 
   </style>
     
@@ -71,7 +74,7 @@
    and warm woolen mittens. <br>
    
    These are the few of my favorite things.
-  <div>
+  <div class="fav_input">
   <input type="text" id="favthing" placeholder="Write down your favorite thing" size="35">
    <button onclick="addFavthings()">Add to list</button>
   <ul id="favlist"></ul>
