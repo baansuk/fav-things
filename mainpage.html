@@ -37,10 +37,16 @@
     width: 30%;
     margin-top:60px;
     margin-bottom:30px;
+    margin-left:30px;
+    margin-right:30px;
     padding:60px;
     border-bottom: 1px solid gray;
-    
    }
+   .fav_quote {
+    font-style:italic;
+    font-family:Times;
+   }
+   
 
   </style>
     
@@ -53,6 +59,13 @@
   <!---------------------------Night and day handling button which I don't use for a momment------------------------
   <input type="button" value="Night" onclick="nightDayHandler(this);">
  -----------------------------------------------------------------------------------------------------------------> 
+  <div class="fav_quote" style="text-align:center;">
+   Raindrops on roses
+   and whiskers on kittens,
+   bright copper kettles
+   and warm woolen mittens.
+   
+   These are the few of my favorite things.
   <div>
   <input type="text" id="favthing" placeholder="Write down your favorite thing" size="35">
    <button onclick="addFavthings()">Add to list</button>
