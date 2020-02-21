@@ -32,6 +32,10 @@
     width:5%;
     border-width:1px;
    }
+   .fav_hr_long {
+    width:25%;
+    border-width:1px;
+   }
    .fav_input{
     margin:30px;
    }
