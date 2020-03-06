@@ -27,6 +27,7 @@
     color: DarkSlateGray;
     margin:30px;
     line-height:150%;
+    cursor:default;
    }
    .fav_hr {
     width:5%;
@@ -35,7 +36,7 @@
    .fav_hr_long {
     width:85%;
     border-width:1px;
-    border:#c3bcac;
+    border-color:#c3bcac;
    }
    .fav_input{
     margin:30px;
