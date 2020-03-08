@@ -35,8 +35,7 @@
    }
    .fav_hr_long {
     width:85%;
-    border-width:1px;
-    border-color:lightGray;
+    border: 1px solid #eeeeee;
    }
    .fav_input{
     margin:30px;
